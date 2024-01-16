@@ -1,0 +1,36 @@
+nav{
+  background: rgba(0, 0, 0, 0.4);
+  width: max-content;
+  display: block;
+  padding: 0.2rem 1rem;
+  z-index: 3rem;
+  position: absolute;
+  margin-top: 0rem;
+  justify-items: center;
+  left: 42%;
+  gap: 0.8rem;
+  display: flex;
+  border-radius: 3rem;
+  backdrop-filter: blur(10px);
+}
+
+nav a{
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-bg-variant);
+  font-size: 1.1rem;
+  flex-direction: column;
+}
+@media screen and (max-width: 1024px){
+  nav{
+    left: 32%;
+  }
+}
+
+@media screen and (max-width: 600px){
+  nav{
+    left: 13%;
+  }
+}
